@@ -31,7 +31,7 @@ async def main():
         return
 
     # Create the Rubika bot client using the bot token.
-    client = BotClient(RUBIKA_BOT_TOKEN)
+    client = BotClient(DGFDB0BTHBAALETZCWYCYTIEBGVZZLXUHQFHTKKZMXTPPZNGWWYGARMOYRTXLPGN)
 
     # Attach all message handlers defined in bot_handlers.py.
     register_handlers(client)
