@@ -38,7 +38,7 @@ except ImportError:
 # Reads from the OPENROUTER_API_KEY environment variable first.
 # If it's not set, falls back to the placeholder string below —
 # replace the placeholder ONLY for local testing on your own machine.
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "PUT_YOUR_OPENROUTER_API_KEY_HERE")
+OPENROUTER_API_KEY = os.getenv("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")
 
 # The AI model to use. You can change this later to any model
 # supported by OpenRouter (e.g. "openai/gpt-4o-mini", "anthropic/claude-3.5-sonnet", etc.)
@@ -80,7 +80,7 @@ TEMPERATURE = 0.7
 # interactive session login, no QR code, and nothing else to
 # configure. This makes the bot suitable for 24/7 unattended
 # hosting (e.g. Railway).
-RUBIKA_BOT_TOKEN = os.getenv("RUBIKA_BOT_TOKEN", "PUT_YOUR_RUBIKA_BOT_TOKEN_HERE")
+RUBIKA_BOT_TOKEN = os.getenv("DGFDB0BTHBAALETZCWYCYTIEBGVZZLXUHQFHTKKZMXTPPZNGWWYGARMOYRTXLPGN")
 
 # If you want the bot to ignore messages from certain chat IDs
 # (for example, to avoid replying in specific groups), add them here.
