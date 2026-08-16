@@ -1,0 +1,12 @@
+# Rubika Bot API client (provides rubpy.bot.BotClient for bot-token auth).
+# Pinned to a known-good range — rubpy's public API has changed between
+# major versions in the past, so avoid an unbounded upgrade in production.
+rubpy>=7.1.24,<8.0.0
+
+# For calling the OpenRouter API asynchronously.
+httpx>=0.27,<1.0
+
+# For loading a local .env file during local development only.
+# Harmless (and effectively a no-op) in production hosts like Railway
+# that inject real environment variables directly.
+python-dotenv>=1.0,<2.0
