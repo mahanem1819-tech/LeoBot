@@ -1,8 +1,0 @@
-# Rubika client library (provides rubpy.bot.BotClient for Bot Token auth)
-rubpy
-
-# For calling the OpenRouter API asynchronously
-httpx
-
-# For loading a local .env file during local development
-python-dotenv
