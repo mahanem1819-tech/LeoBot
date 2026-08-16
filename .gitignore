@@ -1,0 +1,13 @@
+# Environment variables / secrets — never commit these
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# OS junk
+.DS_Store
