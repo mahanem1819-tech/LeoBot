@@ -38,11 +38,9 @@ def register_handlers(client) -> None:
             # Ask OpenRouter for a response.
             ai_reply = await get_ai_response(
     text,
-    user_id=getattr(message, "author_guid", None)
-        or getattr(message, "sender_guid", None)
-        or getattr(message, "from_guid", None),
-    chat_id=chat_id,
-            )
+    user_id=getattr(update, "author_guid", None) or getattr(update, "sender_guid", None),
+    chat_id=chat_guid,
+)
 
             print("🤖 AI response generated.")
 
